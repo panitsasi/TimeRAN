@@ -19,14 +19,6 @@
 ---
 
 
-## 📥 Dataset Download
-
-The **TimeRAN DataPile** dataset is publicly available and can be downloaded from the following repository:
-
-🔗 **Dataset Repository:** https://drive.google.com/file/d/146MSnloH7LyMdY6mdBMEcR7Glil-xEuN/view?usp=sharing
-
----
-
 ## 📚 Overview
 
 Building large-scale and comprehensive time-series corpora for pretraining **RAN foundation models** remains inherently challenging, despite the growing availability of publicly accessible and open-source datasets. Existing datasets are typically associated with a narrow range of downstream tasks and differ substantially in:
@@ -49,6 +41,58 @@ It consolidates datasets from both **operational networks** and **experimental t
 - cross-layer observability
 
 ---
+
+## 📥 Dataset Download
+
+The **TimeRAN DataPile** dataset is publicly available and can be downloaded as follows:
+
+---
+
+### 1. Navigate to the dataset directory
+
+```
+cd TimeRAN/TimeRAN_DataPile
+```
+
+---
+
+### 2. Download the dataset
+
+```
+gdown 146MSnloH7LyMdY6mdBMEcR7Glil-xEuN -O TimeRAN_DataPile.tar.gz
+```
+
+---
+
+### 3. Extract the dataset
+
+```
+tar -xvzf TimeRAN_DataPile.tar.gz
+```
+
+---
+
+### 4. (Optional) Remove the compressed file
+
+```
+rm TimeRAN_DataPile.tar.gz
+```
+
+---
+
+### 5. Expected structure
+
+After extraction, the contents should be directly inside:
+
+```
+TimeRAN_DataPile/
+├── <dataset files and folders>
+```
+
+---
+
+> ⚠️ **Note:** The dataset is large (~29 GB). Ensure sufficient disk space before downloading.
+
 
 ## 📊 Corpus Summary
 
@@ -518,15 +562,3 @@ In short, it provides the **scale**, **diversity**, and **cross-layer visibility
 [25] Moinak Ghoshal, Omar Basit, Sizhe Wang, Phuc Dinh, Imran Khan, Yufei Feng, Zhekun Yu, Y. Charlie Hu, and Dimitrios Koutsonikolas, **"A First Large-Scale Study of Operational 5G Standalone Networks,"** *Proc. ACM Netw.*, 2025.
 
 ---
-
-## 🔗 Citation
-
-If you use TimeRAN DataPile in your research, please cite the corresponding paper:
-
-```bibtex
-@article{timeran,
-  title   = {TimeRAN: Foundation Models for RAN Telemetry},
-  author  = {Panitsas, Ioannis and others},
-  journal = {arXiv preprint},
-  year    = {2026}
-}
