@@ -1,0 +1,24 @@
+backend: TimeRAN   
+variant: base
+mode: full_finetuning
+lora: false
+batch_size: 32
+epochs: 3
+init_lr: 1e-5
+max_lr: 1e-4
+max_norm: 5
+seed: 77
+device: 0
+
+
+dataset:
+  class: TelecomTS          
+  data: ../data/datasets/TelecomTS
+  train_ratio: 0.7
+  task:
+    name: imputation
+    target: None            
+  seq_len: 512
+  stride: 128
+  horizon: None
+  mask_ratio: 0.3

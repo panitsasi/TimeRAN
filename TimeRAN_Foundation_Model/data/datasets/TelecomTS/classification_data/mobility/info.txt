@@ -1,0 +1,2 @@
+Mobility data -> normal/mobile
+stationary data -> normal/stationary/Zone_A/no_congestion
