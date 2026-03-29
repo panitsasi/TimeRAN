@@ -8,26 +8,25 @@
 
 ## ✨ Highlights
 
-- 📦 **29 GB** of curated telemetry data
-- 📈 **355K unique time series**
-- ⏱️ **0.566 billion timestamps**
-- 📡 Coverage across **PHY, MAC, RLC, PDCP, and RRC** protocol layers
-- 🧠 Supports **anomaly detection, classification, forecasting , and imputation** tasks
-- 🌍 Includes data from both **operational networks** and **experimental testbeds**
-- 🛠️ Curated for **large-scale pretraining** and **task-specific finetuning**
+- 📦 **29 GB** of curated telemetry data  
+- 📈 **355K unique time series**  
+- ⏱️ **0.566 billion timestamps**  
+- 📡 Coverage across **PHY, MAC, RLC, PDCP, and RRC** protocol layers  
+- 🧠 Supports **anomaly detection, classification, forecasting, and imputation** tasks  
+- 🌍 Includes data from both **operational networks** and **experimental testbeds**  
+- 🛠️ Curated for **large-scale pretraining** and **task-specific fine-tuning**
 
 ---
-
 
 ## 📚 Overview
 
 Building large-scale and comprehensive time-series corpora for pretraining **RAN foundation models** remains inherently challenging, despite the growing availability of publicly accessible and open-source datasets. Existing datasets are typically associated with a narrow range of downstream tasks and differ substantially in:
 
-- measurement formats
-- temporal resolutions
-- channel dimensionality
-- protocol-layer visibility
-- deployment environments
+- measurement formats  
+- temporal resolutions  
+- channel dimensionality  
+- protocol-layer visibility  
+- deployment environments  
 
 As a result, current public datasets provide only limited coverage of the diverse operational conditions and temporal behaviors required for large-scale pretraining. This fragmentation restricts the ability to learn **generalizable representations across tasks**, posing a fundamental limitation for training foundation models that rely on broad and diverse time-series data.
 
@@ -35,10 +34,10 @@ To address these challenges, we curate **TimeRAN DataPile**, a unified large-sca
 
 It consolidates datasets from both **operational networks** and **experimental testbeds** into a unified benchmark while preserving:
 
-- realistic data distributions
-- unnormalized measurements
-- heterogeneous temporal granularities
-- cross-layer observability
+- realistic data distributions  
+- unnormalized measurements  
+- heterogeneous temporal granularities  
+- cross-layer observability  
 
 ---
 
@@ -48,43 +47,29 @@ The **TimeRAN DataPile** dataset is publicly available and can be downloaded as 
 
 ---
 
-### 1. Navigate to the dataset directory
+### Download and Extract the Dataset
 
-```
+```bash
+# 1. Navigate to the dataset directory
 cd TimeRAN/TimeRAN_DataPile
-```
 
----
-
-### 2. Download the dataset
-
-```
+# 2. Download the dataset
 gdown 146MSnloH7LyMdY6mdBMEcR7Glil-xEuN -O TimeRAN_DataPile.tar.gz
-```
 
----
-
-### 3. Extract the dataset
-
-```
+# 3. Extract the dataset
 tar -xvzf TimeRAN_DataPile.tar.gz
-```
 
----
-
-### 4. (Optional) Remove the compressed file
-
-```
+# 4. (Optional) Remove the compressed file
 rm TimeRAN_DataPile.tar.gz
 ```
 
 ---
 
-### 5. Expected structure
+### 5. Expected Structure
 
 After extraction, the contents should be directly inside:
 
-```
+```text
 TimeRAN_DataPile/
 ├── <dataset files and folders>
 ```
@@ -92,7 +77,6 @@ TimeRAN_DataPile/
 ---
 
 > ⚠️ **Note:** The dataset is large (~29 GB). Ensure sufficient disk space before downloading.
-
 
 ## 📊 Corpus Summary
 
