@@ -105,7 +105,7 @@ If you find **TimeRAN** useful in your research, please consider citing:
 
 ```bibtex
 @article{panitsas2026timeran,
-  title={A Family of Open Time-Series Foundation Models for the {R}adio {A}ccess {N}etwork},
+  title={A Family of Open Time-Series Foundation Models for the Radio Access Network},
   author={Panitsas, Ioannis and Tassiulas, Leandros},
   journal={arXiv preprint arXiv:XXXX.XXXXX},
   year={2026}
