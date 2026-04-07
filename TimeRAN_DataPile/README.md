@@ -546,3 +546,19 @@ In short, it provides the **scale**, **diversity**, and **cross-layer visibility
 [25] Moinak Ghoshal, Omar Basit, Sizhe Wang, Phuc Dinh, Imran Khan, Yufei Feng, Zhekun Yu, Y. Charlie Hu, and Dimitrios Koutsonikolas, **"A First Large-Scale Study of Operational 5G Standalone Networks,"** *Proc. ACM Netw.*, 2025.
 
 ---
+
+
+## 📄 Citation
+
+If you find **TimeRAN DataPile** useful in your research, please consider citing:
+
+```bibtex
+@article{panitsas2026timeran,
+  title   = {A Family of Open Time-Series Foundation Models for the Radio Access Network},
+  author  = {Panitsas, Ioannis and Tassiulas, Leandros},
+  journal = {arXiv preprint arXiv:2604.04271},
+  year    = {2026},
+  doi     = {10.48550/arXiv.2604.04271}
+}
+```
+---
