@@ -105,10 +105,11 @@ If you find **TimeRAN** useful in your research, please consider citing:
 
 ```bibtex
 @article{panitsas2026timeran,
-  title={A Family of Open Time-Series Foundation Models for the Radio Access Network},
-  author={Panitsas, Ioannis and Tassiulas, Leandros},
-  journal={arXiv preprint arXiv:XXXX.XXXXX},
-  year={2026}
+  title   = {A Family of Open Time-Series Foundation Models for the Radio Access Network},
+  author  = {Panitsas, Ioannis and Tassiulas, Leandros},
+  journal = {arXiv preprint arXiv:2604.04271},
+  year    = {2026},
+  doi     = {10.48550/arXiv.2604.04271}
 }
 ```
 
